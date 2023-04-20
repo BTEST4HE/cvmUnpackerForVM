@@ -5,19 +5,17 @@ It has the ability to convert from CVM to ISO, but was unable to create a CVM th
 It does not support conversion of CVM files other than Virtual-On Marz.
 
 # Downloads
-___
 [Latest release](https://github.com/BTEST4HE/cvmUnpackerForVM/releases/latest)
 
 # Usage
-___
 ##Create iso file from cvm file
-`cvmUnpackerForVM --cvm2iso  ROFSVO4.CVM vm_iso.ISO`
+`cvmUnpackerForVM --cvm2iso  ROFSVO4.CVM vm_iso.ISO`  
 
 ##Create iso file and cvm header file from cvm file
-`cvmUnpackerForVM --cvm2iso  ROFSVO4.CVM vm_iso.ISO vm_hdr.hdr`
+`cvmUnpackerForVM --cvm2iso  ROFSVO4.CVM vm_iso.ISO vm_hdr.hdr`  
 
 ##Create cvm file from iso file and cvm header file (may not create correct cvm file)
-`cvmUnpackerForVM --iso2cvm  vm_iso.ISO ROFSVO4.CVM vm_hdr.hdr`
+`cvmUnpackerForVM --iso2cvm  vm_iso.ISO ROFSVO4.CVM vm_hdr.hdr`  
 
 ##Options
 ### Positional arguments
